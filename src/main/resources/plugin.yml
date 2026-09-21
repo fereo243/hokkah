@@ -1,0 +1,17 @@
+name: Hookah
+version: 1.0.1
+main: com.kalyan.hookah.KalyanHookahPlugin
+api-version: '1.21'
+description: A plugin that adds a hookah to Minecraft, allowing players to smoke and enjoy a relaxing experience.
+author: fereo_
+config: config.yml
+commands:
+  hookah:
+    description: Controls the Hookah plugin.
+    usage: /hookah <reload|status>
+    aliases: [kh]
+    permission: hookah.reload
+permissions:
+  hookah.reload:
+    description: Allows reloading Hookah configuration.
+    default: op

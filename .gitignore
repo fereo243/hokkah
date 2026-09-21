@@ -1,0 +1,30 @@
+# Maven
+/target/
+!/target/classes/
+!/target/test-classes/
+
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.kilo/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

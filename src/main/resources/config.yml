@@ -1,0 +1,21 @@
+display:
+  # Any MiniMessage text is supported, including colors, formatting and sprites.
+  stage-1: '<sprite:"minecraft:particles":effect_0>'
+  stage-2: '<sprite:"minecraft:particles":effect_2>'
+  stage-3: '<sprite:"minecraft:particles":effect_4>'
+  stage-4: '<sprite:"minecraft:particles":effect_7>'
+
+smoke:
+  look-away-delay-ms: 2000
+  particles-per-tick: 3
+  velocity: 0.32
+  spread: 0.1
+
+ring:
+  lifetime-ticks: 31
+  speed: 0.1
+  gravity-up: 0.0014
+  gravity-down: -0.0077
+  rotation-speed: 0.0069
+  opacity-decrement: 12
+  scale-increment: 0.11
